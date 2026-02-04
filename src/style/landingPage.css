@@ -19,7 +19,36 @@
 }
 
 .trending{
-    height: 100vh;
+    height: auto;
     background: url("../assets/images/bg/mobil.jpg");
     background-size: cover;
+}
+
+.superhero{
+    height: auto;
+    background: url("../assets/images/bg/superhero.jpg");
+    background-size: cover;
+}
+.movieWrapper{
+
+}
+
+.synopsis {
+  display: -webkit-box;
+  -webkit-line-clamp: 5;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  line-height: 1.6;
+  /* no height fixed */
+}
+
+.movieImage{
+    height: auto;
+    background-color: black;
+    margin: 5px;
+    padding: 5px;
+}
+
+.images{
+    height:500px;
 }

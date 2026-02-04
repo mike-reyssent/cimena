@@ -9,7 +9,7 @@ const Intro = () => {
               <div className="title">WHERE EVERY FRAME</div>
               <div className="title">FEELS LIKE HOME</div>
               <div className="introButton mt-4 text-center">
-                <Button variant="dark">See All List</Button>
+                <Button variant="dark" href="#trending">See All List</Button>
               </div>
               </Col>
             </Row>
